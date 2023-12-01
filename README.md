@@ -1,14 +1,11 @@
-# `03` Building a layout
-[![Status overview badge](../../blob/badges/.github/badges/main/badge.svg)](#-results)
-
+#  Building a layout
 
 Let's practice a little bit more about using JSX for creating HTML.
 
-Now we have another object that is just a bit more complex than the last one.
+Now we have a object that is just a bit more complex.
 
-# :speech_balloon: Instructions
 
-You have a `data` object that contains Bob Dylans information (image, title, etc).
+I have a `data` object that contains Bob Dylans information (image, title, etc).
 
 ```js
 const data = {
@@ -22,7 +19,7 @@ const data = {
 };
 ```
 
-Use the information contained in `data` to render a bootstrap card, for example: The card's title will be the `data.cardTitle`, etc.
+I use the information contained in `data` to render a bootstrap card, for example: The card's title will be the `data.cardTitle`, etc.
 
 Here is the HTML code for creating a card in bootstrap:
 
@@ -38,46 +35,11 @@ Here is the HTML code for creating a card in bootstrap:
 ````
 Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#example)
 
-### This is how your end result needs to look like:
+### This is how my end result look like:
 
 ![Bob Dylan Card](./src/image/reference-image-react.png)
 
-[//]: # (autograding info start)
-# <img src="https://github.com/DCI-EdTech/autograding-setup/raw/main/assets/bot-large.svg" alt="" data-canonical-src="https://github.com/DCI-EdTech/autograding-setup/raw/main/assets/bot-large.svg" height="31" /> Results
-> ⌛ Give it a minute. As long as you see the orange dot ![processing](https://raw.githubusercontent.com/DCI-EdTech/autograding-setup/main/assets/processing.svg) on top, CodeBuddy is still processing. Refresh this page to see it's current status.
->
-> This is what CodeBuddy found when running your code. It is to show you what you have achieved and to give you hints on how to complete the exercise.
-
-
-### App
-
-|                 Status                  | Check                                                                                    |
-| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
-| ![Status](../../blob/badges/.github/badges/main/status0.svg) | Top Level `App` component should render |
-
-### Image
-
-|                 Status                  | Check                                                                                    |
-| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
-| ![Status](../../blob/badges/.github/badges/main/status1.svg) | Card should contain Bob Dylan image |
-
-### Link
-
-|                 Status                  | Check                                                                                    |
-| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
-| ![Status](../../blob/badges/.github/badges/main/status2.svg) | Card should have Wikipedia link |
-
-### Title
-
-|                 Status                  | Check                                                                                    |
-| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
-| ![Status](../../blob/badges/.github/badges/main/status3.svg) | Card should have 'Bob Dylan' as title |
 
 
 
-[🔬 Results Details](../../actions)
-[🐞 Tips on Debugging](https://github.com/DCI-EdTech/autograding-setup/wiki/How-to-work-with-CodeBuddy)
-[📢 Report Problem](https://docs.google.com/forms/d/e/1FAIpQLSfS8wPh6bCMTLF2wmjiE5_UhPiOEnubEwwPLN_M8zTCjx5qbg/viewform?usp=pp_url&entry.652569746=SPA-boilerplate-building-layout)
 
-
-[//]: # (autograding info end)
